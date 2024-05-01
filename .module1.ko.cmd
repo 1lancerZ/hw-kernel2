@@ -1,0 +1,1 @@
+cmd_/root/workspace/KernelModuleProgramming/module1.ko := ld -r -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /root/workspace/KernelModuleProgramming/module1.ko /root/workspace/KernelModuleProgramming/module1.o /root/workspace/KernelModuleProgramming/module1.mod.o ;  true

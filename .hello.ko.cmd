@@ -1,0 +1,1 @@
+cmd_/root/workspace/KernelModuleProgramming/hello.ko := ld -r -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /root/workspace/KernelModuleProgramming/hello.ko /root/workspace/KernelModuleProgramming/hello.o /root/workspace/KernelModuleProgramming/hello.mod.o ;  true
